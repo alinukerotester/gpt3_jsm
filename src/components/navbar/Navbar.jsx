@@ -5,13 +5,13 @@ import { RiCloseLine, RiMenu3Line } from 'react-icons/ri';
 
 const Menu = () => (
     <>
-        <p><a href='home'>Home</a></p>
-        <p><a href='wgpt3'>What is GPT?</a></p>
-        <p><a href='possibility'>Open AI</a></p>
-        <p><a href='features'>Case Studies</a></p>
-        <p><a href='blog'>Library</a></p>
+        <p><a href='/home'>Home</a></p>
+        <p><a href='/wgpt3'>What is GPT?</a></p>
+        <p><a href='/possibility'>Open AI</a></p>
+        <p><a href='/features'>Case Studies</a></p>
+        <p><a href='/blog'>Library</a></p>
     </>
-)
+);
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
@@ -46,7 +46,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
