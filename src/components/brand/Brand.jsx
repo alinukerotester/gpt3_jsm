@@ -21,7 +21,7 @@ const Brand = () => {
                 <img src={shopify} alt="shopify" />
             </div>
         </div>
-    )
+    );
 };
 
-export default Brand
+export default Brand;
