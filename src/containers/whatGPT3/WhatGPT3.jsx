@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './whatGPT3.css';
 import { Feature } from '../../components';
 
