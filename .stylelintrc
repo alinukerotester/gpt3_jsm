@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "block-no-empty": true,
+    "color-no-invalid-hex": true,
+    "declaration-colon-newline-after": null,
+    "indentation": 2,
+    "max-empty-lines": 1,
+    "no-duplicate-selectors": true,
+    "number-leading-zero": "always",
+    "selector-pseudo-element-colon-notation": "double",
+    "string-quotes": "single"
+  }
+}
