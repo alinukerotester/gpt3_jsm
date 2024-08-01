@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true, // Adăugăm suport pentru Node.js
   },
   extends: [
     'eslint:recommended',
@@ -22,6 +23,11 @@ module.exports = {
     '@typescript-eslint',
     'prettier', // Adăugăm pluginul prettier aici
   ],
+  settings: {
+    react: {
+      version: 'detect', // Detectare automată versiune React
+    },
+  },
   rules: {
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'react/react-in-jsx-scope': 'off',
