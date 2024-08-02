@@ -29,29 +29,39 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  background: #71e5ff;
+  color: #71e5ff;
 }
 
 .gpt3__possibility-content h4:last-child {
-  font-family: Manrope;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: left;
+  color: #ff8a71;
 }
 
 .gpt3__possibility-content h1 {
-  font-family: Manrope;
-  font-size: 34px;
+  font-family: var(--font-family);
   font-weight: 800;
+  font-size: 34px;
   line-height: 45px;
-  text-align: left;
+  margin: 1rem 0;
 }
 
 .gpt3__possibility-content p {
-  font-family: Manrope;
+  font-family: var(--font-family);
   font-size: 16px;
-  font-weight: 400;
   line-height: 30px;
-  text-align: left;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+  .gpt3__possibility {
+    flex-direction: column;
+  }
+
+  .gpt3__possibility-image {
+    margin: 1rem 0;
+  }
+
+  .gpt3__possibility-content {
+    margin-top: 2rem;
+  }
 }
